@@ -3,6 +3,6 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
-  var el = document.querySelector('div#nested.target')
-  return el
+ const idul = document.getElementById('nested').querySelectorAll('div.target')
+ return idul
 }
