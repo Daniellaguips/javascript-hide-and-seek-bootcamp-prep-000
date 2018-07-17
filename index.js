@@ -19,13 +19,11 @@ function deepestChild(){
    //  test = deep[i].querySelector("div")
 //  }
 }
-//deepestChild()
 
 function increaseRankBy(n){
   var rank = document.getElementById("app")
  var test =  document.querySelectorAll("ul.ranked-list li")
  for (let i = 0; i<test.length;i++){
-   test[i].children[0] = parseInt(test[i].children[0])+n
+   return test = parseInt(test[i].children[0])+n
  }
-return test
 }
